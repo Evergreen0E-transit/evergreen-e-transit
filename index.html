@@ -52,6 +52,18 @@
       padding: 1rem;
       background-color: #eee;
     }
+    .image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
   </style>
 </head>
 <body>
@@ -103,7 +115,22 @@
       <button type="submit">Apply Now</button>
     </form>
   </section>
-
+<section>
+  <h2>Gallery</h2>
+  <div class="image-grid">
+    <img src="istockphoto-2181454736-612x612.webp" alt="Electric Bus" />
+    <img src="pexels-photo-5223501.jpeg" alt="Charging Station" />
+    <img src="photo-1509749837427-ac94a2553d0e.jpeg" alt="Bus Interior" />
+    <img src="photo-1572675339312-3e8b094a544d.jpeg" alt="Sustainable Transit" />
+    <img src="photo-1639195046198-a73b6d2d9606.jpeg" alt="EV Transport" />
+    <img src="photo-1643617526836-fd5c8f3061fc.jpeg" alt="EV Charging" />
+    <img src="photo-1685645647479-a0232f3fec6d.jpeg" alt="Transit System" />
+    <img src="photo-1698034303737-ec76ac6aa3fb.jpeg" alt="Modern Buses" />
+    <img src="premium_photo-1661916408325-5280388bf1e3.jpeg" alt="Transport Network" />
+    <img src="premium_photo-1664298159107-d579362ca341.jpeg" alt="EV Campus Travel" />
+    <img src="premium_photo-1664302152991-d013ff125f3f.jpeg" alt="Green Transit" />
+  </div>
+</section>
   <footer>
     Contact: evergreenetransit@gmail.com | 09155091742, 08101804244
   </footer>
